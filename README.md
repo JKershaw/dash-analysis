@@ -4,21 +4,21 @@
 
 **Agent Dashboard** - Analyze your Claude Code sessions to identify patterns and improve your development workflow.
 
+---
+
+## ⚠️ BETA SOFTWARE - EVALUATION ONLY
+
+This is unstable beta software for testing and evaluation purposes only.  
+Commercial use requires written permission. Please contact us for commercial licensing.
+
+Note: As of Feb 2026 this project has moved from npm and is best cloned and run directly from this repo. 
+
+---
+
 ## 🚀 Quick Start
 
 ### Web Version (Instant)
 
-```bash
-npx @jkershaw/dash
-```
-
-### Desktop App
-
-**MacOS**
-
-Note: after downloading you will need to right-click to open as this isn't yet an "official" Mac app.
-
-- [macOS (Apple Silicon)](https://drive.google.com/file/d/1sp3BVcAKcs0puPGIta3hTt7R9RS3swEs/view?usp=sharing) - `Dash-v1.3.3-macOS-arm64.dmg`
 
 ## What Dash Does
 
@@ -43,7 +43,7 @@ For deeper insights, provide your Anthropic API key:
 
 ```bash
 export ANTHROPIC_API_KEY=your-api-key
-npx @jkershaw/dash
+npm start
 ```
 
 **Enhanced Features:**
@@ -68,7 +68,7 @@ export OUTPUT_DIR=./my-analysis
 export CLAUDE_MODEL=claude-sonnet-4-20250514
 
 # Use specific port (default: random available port)
-PORT=3000 npx @jkershaw/dash
+PORT=3000
 ```
 
 ### Default Log Locations
@@ -91,16 +91,6 @@ PORT=3000 npx @jkershaw/dash
 2. Look in the default locations listed above
 3. Use `CLAUDE_LOGS_DIR` to specify a custom path
 
-### Port Already in Use?
-
-```bash
-# Use a specific port
-PORT=3001 npx @jkershaw/dash
-
-# Or let Dash find an available port (default behavior)
-npx @jkershaw/dash
-```
-
 ### Permission Issues (macOS)?
 
 For the desktop app, you may need to grant full disk access:
@@ -111,15 +101,8 @@ For the desktop app, you may need to grant full disk access:
 
 ## 🔗 Links
 
-- **Issues**: [Report bugs or request features](https://github.com/jkershaw/dash/issues)
-- **Releases**: [Download desktop apps](https://github.com/jkershaw/dash/releases)
-
----
-
-## ⚠️ BETA SOFTWARE - EVALUATION ONLY
-
-This is unstable beta software for testing and evaluation purposes only.  
-Commercial use requires written permission. Please contact us for commercial licensing.
+- **Issues**: [Report bugs or request features](https://github.com/jkershaw/dash-analysis/issues)
+- **Releases**: [Download desktop apps](https://github.com/jkershaw/dash-analysis/releases)
 
 ---
 
